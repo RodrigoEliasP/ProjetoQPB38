@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loggedScreen"
+    android:background="@drawable/background"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="150dp"
+            android:minHeight="?actionBarSize"
+            >
+            <ImageView
+                android:id="@+id/imgBackButtonB38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_back_white_40dp"
+                android:contentDescription="@string/backbutton">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:text="@string/toolbartext_resources"
+                android:layout_marginStart="100dp" />
+        </LinearLayout>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="#FF5722"
+        android:textColor="@color/inputsTextColor"
+        android:text="@string/btnAnamneseText"
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="#FF5722"
+        android:textColor="@color/inputsTextColor"
+        android:text="@string/btnQuizText"
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="#FF5722"
+        android:textColor="@color/inputsTextColor"
+        android:text="@string/btnAlunosOnText"
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="#FF5722"
+        android:textColor="@color/inputsTextColor"
+        android:text="@string/btnCompleteText"
+        />
+    </LinearLayout>
+
+
+</ScrollView>

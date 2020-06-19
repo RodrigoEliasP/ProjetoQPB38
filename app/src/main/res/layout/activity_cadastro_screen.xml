@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cadastroScreen">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="150dp"
+            android:minHeight="?actionBarSize"
+            >
+            <ImageView
+                android:id="@+id/imgBackButtonB38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_back_white_40dp"
+                android:contentDescription="@string/backbutton">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:text="@string/cad_tool_text"
+                android:layout_marginStart="100dp" />
+        </LinearLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            app:startIconTint="#fff"
+            app:startIconDrawable="@drawable/ic_person_white_24dp"
+            app:startIconContentDescription="user icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_cad_nome"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtNomeB38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="50dp"
+            app:startIconTint="#fff"
+            app:startIconDrawable="@drawable/ic_email_white_24dp"
+            app:startIconContentDescription="user icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_cad_email"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtEmailB38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="50dp"
+            app:startIconTint="#fff"
+            app:startIconDrawable="@drawable/ic_lock_white_24dp"
+            app:startIconContentDescription="user icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hit_cad_senha"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtSenhaB38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnConfirmarB38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FF5722"
+                android:text="@string/confirmar">
+
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

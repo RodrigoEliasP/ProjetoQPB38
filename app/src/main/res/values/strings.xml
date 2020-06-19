@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ProjetoQPB38</string>
+    <string name="logoDesciption">jpeg do logo</string>
+    <string name="user_hint">Usuário</string>
+    <string name="user_pass_hint">Senha</string>
+    <string name="button_cad">Cadastre-se</string>
+    <string name="button_log_text">entrar</string>
+    <string name="hint_cad_nome">Digite seu nome</string>
+    <string name="hint_cad_email">Digite seu email</string>
+    <string name="hit_cad_senha">Digite sua senha</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="btnAnamneseText">Treine sua Anamnese</string>
+    <string name="btnQuizText">Quiz do exame fisico</string>
+    <string name="btnAlunosOnText">Alunos Conectados</string>
+    <string name="btnCompleteText">Complemente seus estudos</string>
+    <string name="cad_tool_text">Cadastro</string>
+    <string name="toolbartext_resources">Recursos</string>
+    <string name="backbutton">backbutton</string>
+</resources>
